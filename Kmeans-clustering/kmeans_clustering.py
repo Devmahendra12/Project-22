@@ -8,7 +8,7 @@ import pandas as pd
 
 #Importing the mall dataset with pandas
 
-dataset = pd.read_csv("E:\Rahul\Kmeans\KMeans-Clustering\mall.csv") 
+dataset = pd.read_csv("E:\Project 22\Kmeans-clustering\mall.csv") 
 X = dataset.iloc[:,[3,4]].values
 
 # Using the elbow method to find the optimal number of clusters
